@@ -1,0 +1,1055 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#photo {
+    max-width: 33%;
+    
+}
+
+.none {
+    display: none;
+}
+
+.oldteam.none {
+    display: none;
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+}
+
+
+
+#navbar2 {
+    background-color: rgb(24, 42, 102);
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 6px;
+}
+
+#navbar3 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(24, 42, 102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+#titleproject {
+    text-align: center;
+    max-width: 100%;
+    padding: 1%;
+    margin-bottom: 1%;
+    border-bottom: 1px solid rgb(24, 42, 102);
+
+}
+
+#navbarrow2 {
+    padding: 1%;
+}
+
+#accueil {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#row1 {
+    max-width: 100%;
+}
+
+li {
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.link {
+    text-align: center;
+    width: 16%;
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid rgb(24, 42, 102);
+}
+
+.linkk {
+    text-align: center;
+    width: 16%;
+    text-decoration: none;
+    color: white;
+    border-bottom: 5px solid rgb(24, 42, 102);
+}
+
+.link:hover {
+    text-align: center;
+    width: 16%;
+    text-decoration: none;
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+#presentation {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(221, 221, 221);
+    height: min-content;
+}
+
+#container {
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(136, 136, 136);
+}
+
+#titlerank {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#containermvp {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+
+}
+
+#picmvp {
+    width: 100%;
+}
+
+
+.logonba {
+    max-width: 100%;
+}
+
+#txt1 {
+    height: min-content;
+
+}
+
+#intro {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.joueur {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+
+}
+
+.logoteam {
+    max-width: 100%;
+}
+
+.containerplayer {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.containerplayer2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.rank {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+.nameandco {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+}
+
+.statsphi {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(0, 107, 182);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.statslal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(85, 37, 130);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.statsgsw {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(29, 66, 138);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.statsmem {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(93, 118, 169);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.statsden {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(13, 34, 64);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.statsmil {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(0, 71, 27);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.statsbkn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.statsdal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(0, 43, 92);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.statsmia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    background-color: rgb(152, 0, 46);
+    color: white;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    padding: 1%;
+}
+
+.stats2 {
+    text-align: center;
+}
+
+#ficheplayer {
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 2%;
+    background-color: rgb(241, 241, 241);
+
+}
+
+.ficheplayer {
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 2%;
+    background-color: rgb(241, 241, 241);
+
+}
+
+
+
+.ficheplayer2 {
+    background-color: rgb(255, 255, 255);
+    padding-left: 3%;
+    padding-right: 3%;
+    box-shadow: 5px 5px 5px 5px rgb(136, 136, 136);
+    display: flex;
+    flex-direction: column;
+}
+
+.ficheplayer2curry {
+    background-color: rgb(255, 255, 255);
+    padding-left: 3%;
+    padding-right: 3%;
+    border-bottom: 20px solid rgb(255, 199, 44);
+    border-right: 20px solid rgb(255, 199, 44);
+    border-left: 20px solid rgb(255, 199, 44);
+    display: flex;
+    flex-direction: column;
+}
+
+#backgroundplayer {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+#presentationAll {
+    max-width: 100%;
+    display: flex;
+}
+
+#firstrow {
+    width: 100%;
+}
+
+
+
+.firstrowphi {
+    border: 2px solid rgb(0, 107, 182);
+}
+
+.secondrowphi {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.thirdrowphi {
+    border: 2px solid rgb(237, 23, 76);
+}
+
+.firstrowdal {
+    border: 2px solid rgb(0, 43, 92);
+}
+
+.secondrowdal {
+
+    border: 2px solid rgb(187, 196, 202);
+}
+
+.thirdrowdal {
+    border: 2px solid rgb(0, 83, 188);
+}
+
+.firstrowgsw {
+    border: 2px solid rgb(29, 66, 138);
+}
+
+.secondrowgsw {
+
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.thirdrowgsw {
+    border: 2px solid rgb(255, 199, 44);
+}
+
+.firstrowden {
+    border: 2px solid rgb(13, 34, 64);
+}
+
+.secondrowden {
+
+    border: 2px solid rgb(13, 34, 64);
+}
+
+.thirdrowden {
+    border: 2px solid rgb(255, 198, 39);
+
+}
+
+.firstrowlal {
+    border: 2px solid rgb(85, 37, 130);
+}
+
+.secondrowlal {
+
+    border: 2px solid rgb(253, 185, 39);
+}
+
+.thirdrowlal {
+    border: 2px solid rgb(253, 185, 39);
+}
+
+.firstrowmil {
+    border: 2px solid rgb(0, 71, 27);
+}
+
+.secondrowmil {
+
+    border: 2px solid rgb(240, 235, 210);
+}
+
+.thirdrowmil {
+    border: 2px solid rgb(0, 71, 27);
+}
+
+.firstrowbkn {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.secondrowbkn {
+
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.thirdrowbkn {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.firstrowmem {
+    border: 2px solid rgb(93, 118, 169);
+}
+
+.secondrowmem {
+
+    border: 2px solid rgb(18, 23, 63);
+}
+
+.thirdrowmem {
+    border: 2px solid rgb(93, 118, 169);
+}
+
+.firstrowmia {
+    border: 2px solid rgb(152, 0, 46);
+}
+
+.secondrowmia {
+
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.thirdrowmia {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+#identification {
+    display: flex;
+
+    width: 70%;
+}
+
+#cv {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logoteam {
+    width: 30%;
+
+}
+
+#titlebesttrackrecord {
+    border-bottom: 1px solid black;
+    font-size: 30px;
+}
+
+#illu2 {
+    max-width: 100%;
+}
+
+table {
+    margin-top: 10px;
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    border-spacing: 0;
+    border-bottom: 1px solid rgb(92, 92, 92);
+    border-left: 1px solid rgb(92, 92, 92);
+    border-right: 1px solid rgb(92, 92, 92);
+}
+
+#rowstat {
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+
+th {
+    padding: 0.5%;
+}
+
+#rowGone td,
+#rowGtwo td,
+#rowGthree td,
+#rowGfour td {
+    border-bottom: 1px solid rgb(92, 92, 92);
+
+}
+
+#Allstatsphi {
+    display: flex;
+    background-color: rgb(0, 107, 182);
+    margin-top: 10px;
+    color: white;
+
+}
+
+#Allstatslal {
+    display: flex;
+    background-color: rgb(85, 37, 130);
+    margin-top: 10px;
+    color: white;
+
+}
+
+#Allstatsgsw {
+    display: flex;
+    background-color: rgb(29, 66, 138);
+    margin-top: 10px;
+    color: white;
+
+}
+
+#Allstatsmem {
+    display: flex;
+    background-color: rgb(13, 34, 64);
+    margin-top: 10px;
+    color: white;
+
+}
+
+#Allstatsden {
+    display: flex;
+    background-color: rgb(0, 43, 92);
+    margin-top: 10px;
+    color: white;
+
+}
+
+#Allstatsmil {
+    display: flex;
+    background-color: rgb(0, 71, 27);
+    margin-top: 10px;
+    color: white;
+
+}
+
+#Allstatsbkn {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    color: white;
+
+}
+
+#Allstatsdal {
+    display: flex;
+    background-color: rgb(93, 118, 169);
+    margin-top: 10px;
+    color: white;
+
+}
+
+#Allstatsmia {
+    display: flex;
+    background-color: rgb(152, 0, 46);
+    margin-top: 10px;
+    color: white;
+
+}
+
+.statsolo {
+    display: flex;
+    justify-content: center;
+}
+
+.statg {
+    width: 33%;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.statg2 {
+    padding: 2%;
+    width: 50%;
+    height: 50%;
+    border: 1px solid white;
+}
+
+#stat1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#stat2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PPPP {
+    display: flex;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+#biographie {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#biotitle {
+    font-size: 20px;
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+
+#txt {
+
+    padding: 2%;
+    background-color: rgb(241, 241, 241);
+
+}
+
+#lastgame {
+    margin-top: 10px;
+}
+
+#titlelastgame {
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+
+#titlelastteam {
+    padding-bottom: 1%;
+    border-bottom: 1px solid black;
+}
+
+#KKKK {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#OOOO {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.lastteamspace {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lastteamflex {
+    display: flex;
+    justify-content: center;
+}
+
+.lastteamaround {
+    display: flex;
+    justify-content: space-around;
+}
+
+.oldteam {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.teamandlogo {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+
+h3 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oldlogo {
+
+    width: 20%;
+}
+
+.oldpic {
+    padding: 3%;
+    max-width: 100%;
+    border: 1px solid rgb(124, 124, 124);
+}
+
+.olddate {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#listplayer {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+#pic {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+#pic:hover {
+    max-width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(0.95);
+
+}
+
+.h1player {
+    text-align: start;
+
+}
+
+.h4team {
+    text-align: end;
+}
+
+#actualité {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(221, 221, 221);
+    height: min-content;
+}
+
+#actualité2 {
+
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgb(136, 136, 136);
+
+}
+
+#actualité3 {
+    margin-left: 1%;
+    font-size: 20px;
+}
+
+#actu {
+    display: flex;
+
+}
+
+#firstpic {
+    max-width: 100%;
+
+}
+
+.secpic {
+    max-width: 48%;
+    border: 2px solid black;
+
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#la-une {
+    width: 70%;
+    margin: 1%;
+
+}
+
+#la-deux {
+    width: 30%;
+    margin: 1%;
+
+}
+
+#contentarticle {
+    background-color: gainsboro;
+    padding: 1%;
+}
+
+#articletitre {
+    border-bottom: 1px solid black;
+
+}
+
+.actu2 {
+    cursor: pointer;
+
+
+}
+
+.actu2 :hover {
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(0.95);
+
+
+}
+
+#linkrank {
+    text-decoration: none;
+    color: black;
+
+}
+
+.link2 {
+    color: black;
+    text-decoration: none;
+}
+
+.BBBB {
+    width: 100%;
+
+}
+
+.cadreplayer {
+    padding: 2%;
+}
+
+#footer {
+    background-color: rgb(24, 42, 102);
+    color: white;
+    width: 100%;
+    padding-top: 2%;
+}
+
+#footerrow1 {
+    display: flex;
+
+}
+
+#logofoot {
+    background-color: rgb(39, 66, 156);
+}
+
+.border {
+    border-radius: 10px;
+}
+
+h6 {
+    border-top: 1px solid white;
+    text-align: center;
+    padding: 1%;
+}
+
+#footerlastrow {
+    background-color: rgb(18, 31, 73);
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+
+
+}
+
+.catéfoot {
+    border-bottom: 1px solid white;
+    text-align: start;
+}
+
+.navfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+
+}
+
+.link3 {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.backphi {
+    background-color: rgb(0, 107, 182);
+}
+
+.backlal {
+    background-color: rgb(85, 37, 130);
+}
+
+.backlal2 {
+    background-color: rgb(253, 185, 39);
+}
+
+.backgsw {
+    background-color: rgb(29, 66, 138);
+}
+
+.backgsw2 {
+    background-color: rgb(255, 199, 44);
+}
+
+.backmem {
+    background-color: rgb(13, 34, 64);
+    ;
+}
+
+.backden {
+    background-color: rgb(0, 43, 92);
+}
+
+.backmil {
+    background-color: rgb(0, 71, 27);
+}
+
+.backmil2 {
+    background-color: rgb(240, 235, 210);
+}
+
+.backbkn {
+    background-color: rgb(0, 0, 0);
+}
+
+.backdal {
+    background-color: rgb(93, 118, 169);
+}
+
+.backmia {
+    background-color: rgb(152, 0, 46);
+}
+
+.backmia2 {
+    background-color: rgb(0, 0, 0);
+}
+
+.backcle {
+    background-color: rgb(134, 0, 56);
+}
+
+.backcle2 {
+    background-color: rgb(4, 30, 66);
+}
+
+.typophi {
+    color: rgb(0, 107, 182);
+}
+
+.typolal {
+    color: rgb(85, 37, 130);
+}
+
+.typogsw {
+    color: rgb(29, 66, 138);
+}
+
+.typomem {
+    color: rgb(13, 34, 64);
+    ;
+}
+
+.typoden {
+    color: rgb(0, 43, 92);
+}
+
+.typomil {
+    color: rgb(0, 71, 27);
+}
+
+.typobkn {
+    color: rgb(0, 0, 0);
+}
+
+.typodal {
+    color: rgb(93, 118, 169);
+}
+
+.typomia {
+    color: rgb(152, 0, 46);
+}
+
+#nbatrophy {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grouptrophy {
+    width: 15%;
+}
+
+#colorone {
+    
+    width: 50%;
+}
+
+#colortwo {
+    
+    width: 50%;
+}
+
+.colorduo {
+    display: flex;
+    height: 3%;
+    
+}
+
+#containertrophy {
+    display: flex;
+    justify-content: center;
+}
+
+.trophydate {
+    text-align: center;
+}
